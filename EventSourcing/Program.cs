@@ -32,5 +32,3 @@ public record MoneyTransferred(
 public record AccountClosed(
     Guid AccountId,
     string Reason) : Event(AccountId);
-    
-    
