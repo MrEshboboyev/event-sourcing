@@ -2,65 +2,104 @@
 
 Console.WriteLine("Event Sourcing : Hello world!");
 
-var bankAccount = BankAccount.Open("M J", 1000);
+// Create a file-based event store and snapshot store
+var eventStore = new FileEventStore("bank_events.json");
+var snapshotStore = new FileSnapshotStore("snapshots");
 
-bankAccount.Deposit(500, "Salary deposit");
-bankAccount.Withdraw(200, "ATM withdrawal");
-bankAccount.TransferTo(Guid.NewGuid(), 300, "Transfer to savings");
-bankAccount.Withdraw(bankAccount.Balance, "Withdrawing before closing account");
-bankAccount.Close("Completing the demo");
+// Create and run the console UI
+var consoleUI = new ConsoleUI(eventStore, snapshotStore);
+await consoleUI.RunAsync();
 
-// Print the final balance and all events
-Console.WriteLine($"Final balance: {bankAccount.Balance}");
-
-foreach (var @event in bankAccount.Events)
-{
-    Console.WriteLine($"Event: {@event.GetType().Name} at {@event.Timestamp}");
-}
-
-var events = bankAccount.Events;
-
-var theSameAccount = BankAccount.ReplayEvents(events);
-
-try
-{
-    theSameAccount.Deposit(100, "Replaying deposit");
-}
-catch (Exception e)
-{
-    Console.WriteLine(e);
-}
-
+// Load all AccountOpened events
+var accountOpenedEvents = await eventStore.GetEventsByTypeAsync<AccountOpened>();
+Console.WriteLine($"\nTotal accounts opened: {accountOpenedEvents.Count()}");
 
 // Base event type
 public abstract record Event(Guid StreamId)
 {
     public DateTime Timestamp { get; init; } = DateTime.UtcNow;
+    public int Version { get; init; }
 }
 
 // Specific events for bank account domain
-public record AccountOpened(
-    Guid AccountId,
-    string AccountHolder,
-    decimal InitialDeposit,
-    string Currency = "USD") : Event(AccountId);
+public record AccountOpened : Event
+{
+    public Guid AccountId { get; init; }
+    public string AccountHolder { get; init; }
+    public decimal InitialDeposit { get; init; }
+    public string Currency { get; init; }
 
-public record MoneyDeposited(
-    Guid AccountId,
-    decimal Amount,
-    string Description) : Event(AccountId);
+    public AccountOpened(Guid accountId, string accountHolder, decimal initialDeposit, string currency, int version) 
+        : base(accountId)
+    {
+        AccountId = accountId;
+        AccountHolder = accountHolder;
+        InitialDeposit = initialDeposit;
+        Currency = currency;
+        Version = version;
+    }
+}
 
-public record MoneyWithdrawn(
-    Guid AccountId,
-    decimal Amount,
-    string Description) : Event(AccountId);
+public record MoneyDeposited : Event
+{
+    public Guid AccountId { get; init; }
+    public decimal Amount { get; init; }
+    public string Description { get; init; }
 
-public record MoneyTransferred(
-    Guid AccountId,
-    decimal Amount,
-    Guid ToAccountId,
-    string Description) : Event(AccountId);
+    public MoneyDeposited(Guid accountId, decimal amount, string description, int version) 
+        : base(accountId)
+    {
+        AccountId = accountId;
+        Amount = amount;
+        Description = description;
+        Version = version;
+    }
+}
 
-public record AccountClosed(
-    Guid AccountId,
-    string Reason) : Event(AccountId);
+public record MoneyWithdrawn : Event
+{
+    public Guid AccountId { get; init; }
+    public decimal Amount { get; init; }
+    public string Description { get; init; }
+
+    public MoneyWithdrawn(Guid accountId, decimal amount, string description, int version) 
+        : base(accountId)
+    {
+        AccountId = accountId;
+        Amount = amount;
+        Description = description;
+        Version = version;
+    }
+}
+
+public record MoneyTransferred : Event
+{
+    public Guid AccountId { get; init; }
+    public decimal Amount { get; init; }
+    public Guid ToAccountId { get; init; }
+    public string Description { get; init; }
+
+    public MoneyTransferred(Guid accountId, decimal amount, Guid toAccountId, string description, int version) 
+        : base(accountId)
+    {
+        AccountId = accountId;
+        Amount = amount;
+        ToAccountId = toAccountId;
+        Description = description;
+        Version = version;
+    }
+}
+
+public record AccountClosed : Event
+{
+    public Guid AccountId { get; init; }
+    public string Reason { get; init; }
+
+    public AccountClosed(Guid accountId, string reason, int version) 
+        : base(accountId)
+    {
+        AccountId = accountId;
+        Reason = reason;
+        Version = version;
+    }
+}

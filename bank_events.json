@@ -1,0 +1,1504 @@
+[
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1739077Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.1801083Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Amount": 500,
+        "Description": "Salary deposit",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1758176Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.1801336Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1764826Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.1801339Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Amount": 300,
+        "ToAccountId": "d84e027f-db22-49ca-84f6-1617d7227587",
+        "Description": "Transfer to savings",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1767725Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.1801339Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Amount": 1000,
+        "Description": "Withdrawing before closing account",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1768809Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.180134Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1739077Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.3068778Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Amount": 500,
+        "Description": "Salary deposit",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1758176Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.3068779Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1764826Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.306878Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Amount": 300,
+        "ToAccountId": "d84e027f-db22-49ca-84f6-1617d7227587",
+        "Description": "Transfer to savings",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1767725Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.306878Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Amount": 1000,
+        "Description": "Withdrawing before closing account",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.1768809Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.3068782Z"
+  },
+  {
+    "AggregateId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+    "Event": {
+      "EventType": "AccountClosed",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Reason": "Completing the demo",
+        "StreamId": "ef0d9caf-38cc-4a9a-b9be-7b49891883e9",
+        "Timestamp": "2025-10-19T18:04:37.3060271Z",
+        "Version": 5
+      }
+    },
+    "StoredAt": "2025-10-19T18:04:37.3068783Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.7624669Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.8624739Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Amount": 500,
+        "Description": "Salary deposit",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.763899Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.8624833Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.7643335Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.8624841Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Amount": 300,
+        "ToAccountId": "2143e95a-c228-4589-9ae6-aa350ee7a3de",
+        "Description": "Transfer to savings",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.7647162Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.8624841Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Amount": 1000,
+        "Description": "Withdrawing before closing account",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.7648635Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.8624842Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.7624669Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.922634Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Amount": 500,
+        "Description": "Salary deposit",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.763899Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.9226349Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.7643335Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.922635Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Amount": 300,
+        "ToAccountId": "2143e95a-c228-4589-9ae6-aa350ee7a3de",
+        "Description": "Transfer to savings",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.7647162Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.9226351Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Amount": 1000,
+        "Description": "Withdrawing before closing account",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.7648635Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.9226351Z"
+  },
+  {
+    "AggregateId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+    "Event": {
+      "EventType": "AccountClosed",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Reason": "Completing the demo",
+        "StreamId": "833eaa25-b1f3-42f7-92ac-d5abb22fb68f",
+        "Timestamp": "2025-10-19T18:05:05.9216097Z",
+        "Version": 5
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:05.9226352Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1244279Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2092382Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Amount": 500,
+        "Description": "Salary deposit",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1258253Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2092495Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1263285Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2092497Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Amount": 300,
+        "ToAccountId": "bf424220-33c3-48ae-9771-d84272f9c2b9",
+        "Description": "Transfer to savings",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1266179Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2092498Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Amount": 1000,
+        "Description": "Withdrawing before closing account",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1267706Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2092499Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1244279Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2667506Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Amount": 500,
+        "Description": "Salary deposit",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1258253Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2667508Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1263285Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.266751Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Amount": 300,
+        "ToAccountId": "bf424220-33c3-48ae-9771-d84272f9c2b9",
+        "Description": "Transfer to savings",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1266179Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2667511Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Amount": 1000,
+        "Description": "Withdrawing before closing account",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.1267706Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2667512Z"
+  },
+  {
+    "AggregateId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+    "Event": {
+      "EventType": "AccountClosed",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Reason": "Completing the demo",
+        "StreamId": "e1dc8de9-d14f-4200-9e1f-c75a807281d1",
+        "Timestamp": "2025-10-19T18:05:23.2647852Z",
+        "Version": 5
+      }
+    },
+    "StoredAt": "2025-10-19T18:05:23.2667512Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.4983587Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162072Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #1",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5017811Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162183Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #2",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5019551Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162185Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #3",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5019562Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162185Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #4",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5019566Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162186Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #5",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5019595Z",
+        "Version": 5
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162187Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #6",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5019599Z",
+        "Version": 6
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162187Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #7",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5019605Z",
+        "Version": 7
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162187Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #8",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5019607Z",
+        "Version": 8
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162188Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #9",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5019612Z",
+        "Version": 9
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162188Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #10",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5020062Z",
+        "Version": 10
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162189Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #11",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5020065Z",
+        "Version": 11
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.616219Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #12",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5020068Z",
+        "Version": 12
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.616219Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #13",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5020071Z",
+        "Version": 13
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162191Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #14",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5020073Z",
+        "Version": 14
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162191Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 100,
+        "Description": "Salary deposit #15",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5020076Z",
+        "Version": 15
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162192Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.502244Z",
+        "Version": 16
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162192Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 300,
+        "ToAccountId": "e616bdeb-8231-487c-9869-e69655bbc1d5",
+        "Description": "Transfer to savings",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5026119Z",
+        "Version": 17
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162192Z"
+  },
+  {
+    "AggregateId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Amount": 500,
+        "Description": "Large withdrawal",
+        "StreamId": "dc385807-9eb4-428f-b46e-36ad769a09fc",
+        "Timestamp": "2025-10-19T18:06:05.5027968Z",
+        "Version": 18
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:05.6162193Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5680981Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549498Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #1",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5704887Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549574Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #2",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707423Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549577Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #3",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707432Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549577Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #4",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707435Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549578Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #5",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707475Z",
+        "Version": 5
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549579Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #6",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707478Z",
+        "Version": 6
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549579Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #7",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.570748Z",
+        "Version": 7
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.654958Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #8",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707482Z",
+        "Version": 8
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.654958Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #9",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707486Z",
+        "Version": 9
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549581Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #10",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707775Z",
+        "Version": 10
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549582Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #11",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.570786Z",
+        "Version": 11
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549582Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #12",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707862Z",
+        "Version": 12
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549582Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #13",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707864Z",
+        "Version": 13
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549588Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #14",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707867Z",
+        "Version": 14
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549588Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 100,
+        "Description": "Salary deposit #15",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5707869Z",
+        "Version": 15
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549589Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5710647Z",
+        "Version": 16
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.6549589Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 300,
+        "ToAccountId": "109bce9e-ecee-437f-bab0-5bbd7ace464d",
+        "Description": "Transfer to savings",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5714115Z",
+        "Version": 17
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.654959Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Amount": 2000,
+        "Description": "Withdrawing all funds",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.5715316Z",
+        "Version": 18
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.654959Z"
+  },
+  {
+    "AggregateId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+    "Event": {
+      "EventType": "AccountClosed",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Reason": "Completing the demo",
+        "StreamId": "01337b51-8eb0-4d20-b125-337d05aaed0d",
+        "Timestamp": "2025-10-19T18:06:26.704065Z",
+        "Version": 19
+      }
+    },
+    "StoredAt": "2025-10-19T18:06:26.7055818Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "AccountHolder": "M J",
+        "InitialDeposit": 1000,
+        "Currency": "USD",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.7939262Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907479Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #1",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.798294Z",
+        "Version": 1
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907543Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #2",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.7988714Z",
+        "Version": 2
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907546Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #3",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.7993027Z",
+        "Version": 3
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907548Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #4",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.7997903Z",
+        "Version": 4
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907549Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #5",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.800223Z",
+        "Version": 5
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.890755Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #6",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.800791Z",
+        "Version": 6
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.890755Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #7",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8012404Z",
+        "Version": 7
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907551Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #8",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8016325Z",
+        "Version": 8
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907552Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #9",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8020895Z",
+        "Version": 9
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907553Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #10",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.802711Z",
+        "Version": 10
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907554Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #11",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8035041Z",
+        "Version": 11
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907556Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #12",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8042258Z",
+        "Version": 12
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907557Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #13",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8048206Z",
+        "Version": 13
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907558Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #14",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8052957Z",
+        "Version": 14
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907558Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyDeposited",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 100,
+        "Description": "Salary deposit #15",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8057399Z",
+        "Version": 15
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907559Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 200,
+        "Description": "ATM withdrawal",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.806608Z",
+        "Version": 16
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.890756Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyTransferred",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 300,
+        "ToAccountId": "7367024b-b0d7-4917-bee3-739177ee3aea",
+        "Description": "Transfer to savings",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8076438Z",
+        "Version": 17
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907561Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "MoneyWithdrawn",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Amount": 2000,
+        "Description": "Withdrawing all funds",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.8082805Z",
+        "Version": 18
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.8907561Z"
+  },
+  {
+    "AggregateId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+    "Event": {
+      "EventType": "AccountClosed",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Reason": "Completing the demo",
+        "StreamId": "0629fe6d-e303-4007-a8db-7ca074cf5e7a",
+        "Timestamp": "2025-10-19T18:08:00.9389743Z",
+        "Version": 19
+      }
+    },
+    "StoredAt": "2025-10-19T18:08:00.9507947Z"
+  },
+  {
+    "AggregateId": "6a471272-0470-424d-8ea8-78d876820d66",
+    "Event": {
+      "EventType": "AccountOpened",
+      "EventVersion": 1,
+      "EventData": {
+        "AccountId": "6a471272-0470-424d-8ea8-78d876820d66",
+        "AccountHolder": "11",
+        "InitialDeposit": 22,
+        "Currency": "USD",
+        "StreamId": "6a471272-0470-424d-8ea8-78d876820d66",
+        "Timestamp": "2025-10-19T18:09:33.4254222Z",
+        "Version": 0
+      }
+    },
+    "StoredAt": "2025-10-19T18:09:33.5224904Z"
+  }
+]
